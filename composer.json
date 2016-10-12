@@ -1,0 +1,26 @@
+{
+  "name": "settermjd/robo.li-example",
+  "description": "An example of using Robo.li to automate tasks",
+  "type": "project",
+  "homepage": "https://github.com/settermjd/robo.li-example",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matthew Setter",
+      "homepage": "https://matthewsetter.com/"
+    }
+  ],
+  "require": {
+    "php": "^5.5 || ^7.0"
+  },
+  "require-dev": {
+    "codegyre/robo": "^0.7.2",
+    "phpunit/phpunit": "^4.8",
+    "squizlabs/php_codesniffer": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Project\\": "src/Project/"
+    }
+  }
+}
