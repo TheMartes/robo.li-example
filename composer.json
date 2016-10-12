@@ -22,5 +22,10 @@
     "psr-4": {
       "Project\\": "src/Project/"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AppTests\\": "tests/"
+    }
   }
 }
